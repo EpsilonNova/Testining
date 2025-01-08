@@ -4,22 +4,29 @@
 		"replaces": "Circus Maximus",
 		"uniqueTo": "Aliens",
 		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"happiness": 5000,
+		"gold": 250000,
+		"production": 4000,
+		"culture": 2500,
+		"science": 3000,
+		"maintenance": -90000,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
 	},
 	{
 		"name": "Breeders",
+		"production": 30,
 		"replaces": "Aqueduct",
 		"uniqueTo": "Aliens",
 		"cost": 80,
 		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"happiness": 200,
+		"uniques": ["900% of food is carried over after a new citizen is born"],
+			"[+1000 Production] from [Stone] tiles [in this city]",
+			"[+1000 Production] from [Marble] tiles [in this city]",
+			"[+1000 Production] from [Silver] tiles [in this city]",
+			"[+1000 Production] from [Gold Ore] tiles [in this city]"]
 		"requiredTech": "Engineering"
 	}
 ]
